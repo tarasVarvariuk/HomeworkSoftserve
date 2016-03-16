@@ -17,6 +17,11 @@ public class VarvariukHomeworkTest {
 	public void testVarvariuk86a() {
 		assertEquals(3, HomeworkVarvariuk.calculateCounterTask86a(123));
 	}
+	
+	@Test
+	public void testVarvariuk86a2() {
+		assertEquals(3, HomeworkVarvariuk.calculateCounterTask86a(110));
+	}
 
 	@Test
 	public void testVarvariuk86b() {
